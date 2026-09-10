@@ -1,0 +1,15 @@
+PREDICTIVE MODELING PROJECT - SUMMARY REPORT
+==================================================
+
+PART 1: CLASSIFICATION (Breast Cancer Dataset)
+--------------------------------------------------
+              Model  Accuracy  Precision   Recall  F1-Score  ROC-AUC
+Logistic Regression  0.964912   0.959459 0.986111  0.972603 0.995370
+      Random Forest  0.956140   0.958904 0.972222  0.965517 0.993056
+      Decision Tree  0.921053   0.956522 0.916667  0.936170 0.916336
+
+Best performing model: Logistic Regression (Accuracy=0.965, AUC=0.995)
+
+PART 2: REGRESSION (Diabetes Dataset)
+--------------------------------------------------
+Linear Regression -> RMSE: 53.853, R2 Score: 0.453
